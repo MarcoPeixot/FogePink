@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foge Pink</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.min.js"></script>
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+    </style>
+
+</head>
+
+<body>
+    <script type="module">
+
+        import Menu from './cenas/menu.js';
+        import Tela1 from './cenas/game.js'
+
+        const config = {
+            pixelArt: true,
+            type: Phaser.AUTO,
+            width: 1000,
+            height: 368,
+            scale: {
+                mode: Phaser.Scale.FIT,
+            },
+            physics: {
+                default: 'arcade',
+                arcade: {
+                    gravity: { y: 900 },
+                    debug: true
+                }
+            },
+            scene: [Menu, Tela1]
+        }
+
+        const game = new Phaser.Game(config);
+
+    </script>
+</body>
+
+</html>

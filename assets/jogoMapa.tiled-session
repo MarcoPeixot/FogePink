@@ -1,0 +1,72 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "menu.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "": {
+            "scaleInEditor": 1
+        },
+        "map_jogo.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 416,
+                "y": 272.99999999999994
+            }
+        },
+        "map_jogo.tmx#Objects": {
+            "scaleInDock": 1
+        },
+        "map_jogo.tmx#background": {
+            "scaleInDock": 1
+        },
+        "map_jogo.tmx#espinho": {
+            "scaleInDock": 1
+        },
+        "map_jogo.tmx#terreno": {
+            "scaleInDock": 1
+        },
+        "menu.tmx": {
+            "scale": 1,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 788,
+                "y": 200.5
+            }
+        },
+        "menu.tmx#chao": {
+            "scaleInDock": 1
+        },
+        "menu.tmx#fundo": {
+            "scaleInDock": 1
+        }
+    },
+    "last.exportedFilePath": "C:/Users/Inteli/Documents/Documentos - Programção/JogoProprio/assets",
+    "last.imagePath": "C:/Users/Inteli/Documents/Documentos - Programção/JogoProprio/assets",
+    "map.height": 23,
+    "map.lastUsedExportFilter": "Ficheiros de mapa JSON (*.tmj *.json)",
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 63,
+    "openFiles": [
+        "map_jogo.tmx",
+        "menu.tmx"
+    ],
+    "project": "jogoMapa.tiled-project",
+    "property.type": "bool",
+    "recentFiles": [
+        "map_jogo.tmx",
+        "menu.tmx"
+    ],
+    "tileset.embedInMap": true,
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}
